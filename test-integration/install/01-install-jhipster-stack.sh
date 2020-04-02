@@ -10,7 +10,9 @@ export IONIC4J_REPO=https://github.com/${GITHUB_REPOSITORY}.git
 export IONIC4J_BRANCH=${GITHUB_REF#refs/heads/}
 echo $IONIC4J_REPO
 echo $IONIC4J_BRANCH
-
+echo $GITHUB_REF
+echo $GITHUB_HEAD_REF
+echo $GITHUB_BASE_REF
 #-------------------------------------------------------------------------------
 # Clone JHipster
 #-------------------------------------------------------------------------------
